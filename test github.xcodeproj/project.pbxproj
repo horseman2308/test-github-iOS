@@ -21,6 +21,7 @@
 		0065F3B9199FD69F0093377C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0065F39B199FD69F0093377C /* UIKit.framework */; };
 		0065F3C1199FD69F0093377C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0065F3BF199FD69F0093377C /* InfoPlist.strings */; };
 		0065F3C3199FD69F0093377C /* test_githubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065F3C2199FD69F0093377C /* test_githubTests.m */; };
+		0065F3CE199FDAE40093377C /* TMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065F3CD199FDAE40093377C /* TMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0065F3BE199FD69F0093377C /* test githubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test githubTests-Info.plist"; sourceTree = "<group>"; };
 		0065F3C0199FD69F0093377C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0065F3C2199FD69F0093377C /* test_githubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_githubTests.m; sourceTree = "<group>"; };
+		0065F3CC199FDAE40093377C /* TMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMTest.h; path = "test github/TMTest.h"; sourceTree = "<group>"; };
+		0065F3CD199FDAE40093377C /* TMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMTest.m; path = "test github/TMTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		0065F38B199FD69F0093377C = {
 			isa = PBXGroup;
 			children = (
+				0065F3CC199FDAE40093377C /* TMTest.h */,
+				0065F3CD199FDAE40093377C /* TMTest.m */,
 				0065F39D199FD69F0093377C /* test github */,
 				0065F3BC199FD69F0093377C /* test githubTests */,
 				0065F396199FD69F0093377C /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0065F3CE199FDAE40093377C /* TMTest.m in Sources */,
 				0065F3AE199FD69F0093377C /* TMViewController.m in Sources */,
 				0065F3A4199FD69F0093377C /* main.m in Sources */,
 				0065F3A8199FD69F0093377C /* TMAppDelegate.m in Sources */,
